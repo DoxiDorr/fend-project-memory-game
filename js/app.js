@@ -2,6 +2,13 @@
  * Create a list that holds all of your cards
  */
 
+// listOfCards stores all cards
+ const listOfCards = {};
+// openCards stores the open cards to make it possible to check if there is a match
+ const openCards = {};
+ // matchedCards stores the matches in another list to chec if the game has been finished or not
+ const matchedCards = {};
+
 
 /*
  * Display the cards on the page
