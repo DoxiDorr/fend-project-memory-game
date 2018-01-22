@@ -32,6 +32,50 @@ function shuffle(array) {
     return array;
 }
 
+function eventListener () {
+  document.addEventListener("click", turningCards)
+  getElementsByClassName('className')
+};
+
+function turningCards () {
+  getElementsByClassName
+};
+
+/* add a first functionality to display card's symbol on click */
+
+const deckName = document.querySelectorAll(".card");
+var i;
+
+for (i = 0; i < deckName.length; ++i) {
+  deckName[i].addEventListener("click", clickHandler);
+};
+
+function clickHandler () {
+  this.classList.add("match");
+}
+
+/*
+
+elements[i].addEventListener('click', changeColor)
+}
+
+function changeColor() {
+   this.style.backgroundColor = this.getAttribute('data-color');
+}
+
+function clickHandler() {
+  test.classList.add("match");
+}
+
+for (i = 0; i < deckName.length; ++i) {
+  deckName[i].classList.add("match");
+};
+
+for (var i = 0 ; i < deckName.length; i++) {
+   deckName[i].addEventListener('click' , clickHandler)
+};
+*/
+
 
 /*
  * set up the event listener for a card. If a card is clicked:
